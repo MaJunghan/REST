@@ -1,0 +1,13 @@
+server:
+  port: 8089
+
+logging:
+  level:
+    org.springframework : debug
+
+spring:
+  jpa:
+   show-sql: true
+  h2:
+    console:
+      enabled: true
